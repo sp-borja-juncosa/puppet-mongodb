@@ -45,6 +45,7 @@ class mongodb (
   $replsetname    = undef, # new yaml
   $keyfile        = undef,
   $smallfiles     = undef,
+  $fork           = true,
   $extra_options  = {},
   # New YAML configuration
   $systemlog_verbosity     = undef,

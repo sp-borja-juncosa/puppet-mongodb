@@ -13,7 +13,7 @@ storage:
   engine: '<%= @storage_engine %>'
   <%- end -%>
 processManagement:
-  fork: true
+  fork: <%= @fork %>
   pidFilePath: '<%= @pidfilepath %>'
 net:
   bindIp: <%= @net_bindip %>
